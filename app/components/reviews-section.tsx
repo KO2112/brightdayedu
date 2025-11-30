@@ -1,15 +1,15 @@
 export default function ReviewsSection() {
   const reviews = [
     {
-      name: "TANSU DALYAN",
+      name: "ALI GULER",
       role: "Parent",
-      text: "Our adaptation to new life in the UK is not so easy and we have concerns in our new lives, especially on our child's education. BDE make science learning easy for our children in her mother language and helped her adapted to this new education environment.",
+      text: "Our transition to life in the UK has been exciting but also challenging, especially when it comes to our child’s education. Bright Day Education (BDE) has been a tremendous support. They make learning science in her native language enjoyable and understandable, which has really boosted her confidence at school. Thanks to BDE, she now feels much more comfortable in her new academic environment",
       rating: 5,
     },
     {
       name: "OKAN SARUHAN",
       role: "Parent (From Turkey)",
-      text: "Oglumuzun fen bilgisi derslerindeki zayifligini asmak icin ozel ogretmen arayisina girmistik. Bir arkadas tavsiyesi ile tanistigimiz BDE ve yeterlilik olarak gordugumuz sertifikalarindan sonra yardimci dersler icin BDE den hizmet aldik.",
+      text: "Settling into a new country has not been easy for us, and we were particularly worried about how our child would cope with the school system here in the UK. Bright Day Education (BDE) played a key role in easing this transition. By teaching science in his mother tongue, they helped her grasp concepts more quickly and adjust smoothly to his new classroom. We are very grateful for the positive impact BDE has had on his education.",
       rating: 5,
     },
     {
