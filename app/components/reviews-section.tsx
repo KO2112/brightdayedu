@@ -7,13 +7,13 @@ export default function ReviewsSection() {
       rating: 5,
     },
     {
-      name: "OKAN SARUHAN",
+      name: "TIMUR KARACAOGLU",
       role: "Parent (From Turkey)",
       text: "Settling into a new country has not been easy for us, and we were particularly worried about how our child would cope with the school system here in the UK. Bright Day Education (BDE) played a key role in easing this transition. By teaching science in his mother tongue, they helped her grasp concepts more quickly and adjust smoothly to his new classroom. We are very grateful for the positive impact BDE has had on his education.",
       rating: 5,
     },
     {
-      name: "TIMUR KARACAOGLU",
+      name: "HASAN TURSU",
       role: "Secondary School Teacher in USA",
       text: "I always seek and try find out new methods of education. When I saw gifted and talented study program immediately registered for online courses at BDE. And it's really impressive after 10 years of teaching I still can find and learn so many new ways of education.",
       rating: 5,
