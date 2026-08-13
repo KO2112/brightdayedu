@@ -48,7 +48,7 @@ export default function Footer() {
 
             <div className="mt-5 space-y-3 text-sm leading-6 text-slate-400">
               <p>
-                27 Old Gloucester Street
+                27 Old Gloucester Street.
                 <br />
                 London, WC1N 3AX
               </p>
