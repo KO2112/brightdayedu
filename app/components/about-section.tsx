@@ -1,40 +1,78 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 px-8 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold mb-4 text-gray-800">
-            Welcome to Bright Day Education
-          </h2>
-          <h3 className="text-2xl text-orange-500 font-semibold mb-4">ABOUT OUR COMPANY</h3>
-          <div className="w-20 h-1 bg-orange-500 mx-auto"></div>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-          <div>
-            <p className="text-lg text-orange-600 font-bold leading-relaxed mb-6">
-              CERTIFICATED EDUCATION COURSES FOR YOU AND YOUR CHILDREN
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-              We are offering a wide range of services especially in the light
-              of our certificates taken for the education of high potential
-              students, including educational counselling for gifted students or
-              their families regarding their best study options that suit their
-              individual needs and career aspirations.
-            </p>
-            <p className="text-gray-600 leading-relaxed text-lg">
-              We also provide education
-              consultancy in Turkish or English to families, especially citizens
-              of Turkish origin living in England.
-            </p>
-          </div>
+    <section id="about" className="bg-[#f7f8f6] px-6 py-24 md:px-8">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative">
-            <div className="absolute -inset-4 bg-orange-200 rounded-lg blur opacity-25"></div>
-            <img
-              src="/ing.jpg"
-              alt="Education Services"
-              className="w-full rounded-lg shadow-xl relative"
-            />
+            <div className="absolute -left-5 -top-5 h-full w-full rounded-[2rem] border border-orange-200" />
+
+            <div className="relative overflow-hidden rounded-[2rem] bg-white p-3 shadow-xl">
+              <img
+                src="/ing.jpg"
+                alt="Bright Day Education"
+                className="h-[520px] w-full rounded-[1.5rem] object-cover"
+              />
+            </div>
+
+            <div className="absolute -bottom-6 -right-4 rounded-2xl bg-slate-900 px-6 py-5 text-white shadow-xl md:right-6">
+              <p className="text-3xl font-bold">UK</p>
+              <p className="mt-1 text-sm text-slate-300">
+                Education support
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
+              About Bright Day Education
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
+              Education should feel personal.
+            </h2>
+
+            <p className="mt-7 text-lg leading-8 text-slate-600">
+              We provide a wide range of educational services, with a
+              particular focus on high-potential and gifted students,
+              personalised learning and educational guidance for families.
+            </p>
+
+            <p className="mt-5 text-lg leading-8 text-slate-600">
+              Our approach combines teaching experience with educational
+              consultancy, helping children develop their potential while
+              giving parents the information and confidence they need to make
+              important decisions.
+            </p>
+
+            <div className="mt-10 grid grid-cols-2 gap-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-5">
+                <p className="text-2xl font-bold text-slate-900">01</p>
+                <p className="mt-2 text-sm font-semibold text-slate-600">
+                  Personalised education
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-5">
+                <p className="text-2xl font-bold text-slate-900">02</p>
+                <p className="mt-2 text-sm font-semibold text-slate-600">
+                  Family-focused guidance
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-5">
+                <p className="text-2xl font-bold text-slate-900">03</p>
+                <p className="mt-2 text-sm font-semibold text-slate-600">
+                  UK education expertise
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-5">
+                <p className="text-2xl font-bold text-slate-900">04</p>
+                <p className="mt-2 text-sm font-semibold text-slate-600">
+                  English & Turkish
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
